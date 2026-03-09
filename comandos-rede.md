@@ -1,13 +1,23 @@
-# 🛠 Lab de Redes e Manutenção - Linux (Ubuntu)
+# 🛠 Linux Administration & Networking Lab (Ubuntu)
 
-Repositório para registar comandos úteis de troubleshooting e configuração.
+Essential commands for system administration, troubleshooting, and maintenance.
 
-## 🌐 Gerenciamento de IP
-* **Ver IPs da máquina:** `ip a` ou `ip addr show eth0`
-* **Remover um IP secundário (temporário):** `sudo ip addr del [IP/CIDR] dev [INTERFACE]`
-  *Exemplo: `sudo ip addr del 10.10.10.121/24 dev eth0`*
+## 🌐 IP & Networking
+* **Check IP addresses:** `ip a`
+* **Remove temporary IP:** `sudo ip addr del [IP/CIDR] dev [INTERFACE]`
+* **Check open ports:** `sudo ss -tulpn`
 
-## 🔄 Manutenção e Atualizações
-* **Procurar atualizações (resumo):** `/usr/lib/update-notifier/apt-check --human-readable`
-* **Ver lista de pacotes a atualizar:** `apt list --upgradable`
-* **Fluxo padrão de atualização:** `sudo apt update && sudo apt upgrade -y`
+## 🔄 Maintenance & Updates
+* **Update summary:** `/usr/lib/update-notifier/apt-check --human-readable`
+* **Update workflow:** `sudo apt update && sudo apt upgrade -y`
+* **Clean unused packages:** `sudo apt autoremove`
+
+## 📊 System Resources
+* **Disk usage:** `df -h`
+* **Folder size summary:** `du -sh *`
+* **Real-time processes:** `top` (or `htop`)
+
+## ⚙️ Service Management (systemd)
+* **Check service status:** `sudo systemctl status [service]`
+* **Restart service:** `sudo systemctl restart [service]`
+* **View real-time logs:** `sudo journalctl -f`
