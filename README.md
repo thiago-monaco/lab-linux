@@ -4,9 +4,9 @@ Welcome to my personal laboratory. Here I document my journey through Linux admi
 
 ## 📂 Project Structure
 
-* **[🌐 Networking](./networking/network-commands.md):** Essential Linux network commands and troubleshooting.
-* **[📦 Containers](./containers):** Management and orchestration with Docker, Kubernetes, and OpenShift.
-* **[📊 Monitoring](./monitoring):** Proactive observability and health checks with Uptime Kuma.
+* **🌐 Networking:** Essential Linux network commands and troubleshooting.
+* **📦 Containers:** Management and orchestration with Docker, Kubernetes, and OpenShift.
+* **[📊 Monitoring](./monitoring/uptime-kuma/):** Proactive observability and health checks with **Uptime Kuma**.
 
 ---
-*Created by Thiago Monaco Caminha*
+*Status: In constant evolution* 🚀
