@@ -1,12 +1,14 @@
 # 📊 Monitoring Projects
 
+![Dashboard Preview](./img/dashboard-preview.png)
+
 This section contains infrastructure monitoring tools, metrics collectors, and visualization dashboards.
 
 ## 🚀 Projects
 
 * **[Uptime Kuma](./uptime-kuma/):** Real-time service availability dashboard and alerting.
 * **[Prometheus](./prometheus/):** Time-series database for metrics collection with custom scraping configurations.
-* **[Grafana](./grafana/):** Advanced data visualization and analytics for infrastructure health.
+* **[Grafana](./grafana/):** Advanced visualization (includes a **JSON file** for a Windows Exporter dashboard).
 
 ---
 
