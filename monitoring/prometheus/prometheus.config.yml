@@ -1,0 +1,15 @@
+# --- CONFIGURAÇÃO DE COLETA (DEMONSTRAÇÃO) ---
+global:
+  scrape_interval: 15s # O Prometheus vai buscar dados a cada 15 segundos
+  evaluation_interval: 15s
+
+scrape_configs:
+  # O Prometheus monitorando a si próprio
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # Exemplo de target para monitorar o SO (Node Exporter)
+  # - job_name: 'linux-server'
+  #   static_configs:
+  #     - targets: ['192.168.1.10:9100']
