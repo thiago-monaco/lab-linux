@@ -9,6 +9,7 @@ Central repository for Artificial Intelligence services running locally.
 - **Purpose:** Execution and interface for LLMs (Llama 3.2).
 
 - **Access:** Port 3080.
+* **[Ollama Webui](./ollama-webui/):** Self-hosted AI Platform
 
 ### 2. OCR Service (Coming Soon)
 - **Purpose:** Optical character recognition via neural network.
