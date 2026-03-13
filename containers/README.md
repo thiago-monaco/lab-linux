@@ -2,17 +2,49 @@
 
 This directory documents my environment management and orchestration expertise using industry-standard container technologies.
 
-
-
 ## 📂 Structure
-* **[🐳 Docker](./docker/):** Best practices, image optimization (multi-stage builds), and local lifecycle management.
-* **[☸️ Kubernetes](./kubernetes/):** Manifest orchestration, deployment strategies, and cluster operations (including Red Hat OpenShift).
+* **[🐳 Docker](./docker/):** Best practices, image optimization, and local management.
+* **[☸️ Kubernetes](./kubernetes/):** Orchestration, manifests, and cluster operations (including OpenShift).
 
 ---
 
-> "Containers allow me to package once and run anywhere, ensuring consistency from local lab to production environments."
+## 🛠️ Tech Stack
+* **Engines:** Docker, Podman.
+* **Orchestration:** Kubernetes (K8s), Red Hat OpenShift.
+* **Infrastructure as Code:** Docker Compose.
+* **Registry:** Docker Hub, GitHub Container Registry (GHCR).
 
-## 🚀 Skills Showcased
-- **Infrastructure as Code (IaC):** Managing stacks via Docker Compose.
-- **Microservices:** Decoupling applications into scalable units.
-- **Resource Optimization:** Setting limits and choosing slim base images.
+---
+
+## 🚀 Key Projects & Implementations
+
+### 1. Unified AI Stack (Docker Compose)
+Integrated a multi-service environment for AI processing, ensuring seamless communication between LLMs and OCR services.
+* **Highlights:** Container linking, shared networks, and persistent volume management.
+* **Status:** [Live in ./ai-infrastructure](../ai-infrastructure/)
+
+### 2. Monitoring & Observability
+Deployment of a sidecar-style monitoring stack to track container health in real-time.
+* **Tools:** Prometheus & Grafana.
+* **Concept:** *"You can't manage what you can't measure."*
+
+---
+
+
+
+## 🏗️ Core Concepts Implemented
+
+### 🐳 Docker & Docker Compose
+* **Image Optimization:** Building slim images to reduce attack surface (e.g., using `python:3.10-slim`).
+* **Volume Persistence:** Managing stateful data in stateless containers.
+* **Networking:** Creating isolated bridge networks for internal service communication.
+
+### ☸️ Kubernetes & OpenShift
+* **Pod Orchestration:** Managing the lifecycle of scalable applications.
+* **Deployment Strategies:** Rolling updates and resource limits (CPU/RAM).
+* **Enterprise Grade:** Experience with OpenShift's security-focused container management.
+
+---
+
+## 🎯 Why Containers?
+Containerization is the bridge between development and production. By mastering these tools, I ensure that my infrastructure is **reproducible, scalable, and portable** across any cloud or on-premise environment.
