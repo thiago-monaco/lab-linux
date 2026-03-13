@@ -8,7 +8,7 @@ Welcome to my personal laboratory. Here I document my journey through Linux admi
 * **[📜 Scripts](./scripts/):** Automation, health checks, and maintenance shell scripts.
 * **[📦 Containers](./containers/):** Management and orchestration with Docker, Kubernetes, and OpenShift.
 * **[📊 Monitoring](./monitoring/):** Proactive observability with **Prometheus**, **Grafana**, and **Uptime Kuma**.
-* **[🤖 AI Infrastructure](./ai-infrastructure/):** Local LLM deployment with *Ollama*, interactive interfaces with **Open WebUI*, and high-performance **OCR Services** integrated via **Docker**.
+* **[🤖 AI Infrastructure](./ai-infrastructure/):** Local LLM deployment with **Ollama**, interactive interfaces with **Open WebUI**, and high-performance **OCR Services** integrated via **Docker**.
 
 ---
 
