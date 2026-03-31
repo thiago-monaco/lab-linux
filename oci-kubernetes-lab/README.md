@@ -44,7 +44,9 @@ Para suportar aplicações modernas, a stack foi desenhada com foco em performan
                 +-- [ Worker Nodes / Istio Ingress ]
 
 
-## 🚀 Diário de Bordo & Desafios Superados
+
+### 🚀 Diário de Bordo & Desafios Superados
+
 
 ### 1. Networking & Connectivity (Bypass de Restrições)
 Um diferencial técnico deste projeto foi superar barreiras de redes corporativas restritivas:
@@ -52,12 +54,14 @@ Um diferencial técnico deste projeto foi superar barreiras de redes corporativa
 * **O Problema:** Bloqueio de porta 22 (SSH) via Netskope/EDR.
 * **A Solução:** Implementação de acesso via OCI Cloud Shell e Serial Console Connection, permitindo o gerenciamento da infraestrutura via túnel HTTPS (Porta 443).
 
+
 ### 2. Provisionamento de Compute
 * [x] **VCN & Security:** Setup de tabelas de roteamento e Security Lists.
 * [x] **Instância de Validação:** Provisionamento de VM `Standard.E2.1.Micro` (AMD) para teste de conectividade.
 * [ ] **High Performance Shape:** Em processo de upgrade para Ampere (A1.Flex - 12GB RAM) para suportar o footprint do Istio.
 
 ---
+
 
 ### 🛠️ Como Reproduzir
 1. Gerar par de chaves RSA via PowerShell.
@@ -67,6 +71,7 @@ Um diferencial técnico deste projeto foi superar barreiras de redes corporativa
 
 ---
 
+
 ### 📈 Roadmap do Projeto
 * [x] Design de Rede e Provisionamento de VCN.
 * [x] Bypass de Firewall corporativo e primeiro acesso SSH.
@@ -75,4 +80,5 @@ Um diferencial técnico deste projeto foi superar barreiras de redes corporativa
 * [ ] Instalação do Istio e configuração da Malha de Serviços.
 
 ---
-## **Responsável:** [Thiago Monaco](https://github.com/thiago-monaco)
+
+### **Responsável:** [Thiago Monaco](https://github.com/thiago-monaco)
