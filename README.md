@@ -1,14 +1,21 @@
 # 🐧 Linux & Infrastructure Lab
 
-Welcome to my personal laboratory. Here I document my journey through Linux administration, networking, containerization, and observability.
+Welcome to my personal laboratory. Here I document my journey through Cloud engineering, Linux administration, networking, and observability.
+
+---
+
+## 🏗️ Featured Project: Cloud-Native Journey
+* **[☁️ OCI Kubernetes Lab](./oci-kubernetes-lab/):** Provisionamento de infraestrutura enterprise na **Oracle Cloud**. Implementação de **K3s**, **Rancher** e **Istio Service Mesh**, superando restrições de rede corporativa via Cloud Shell e Serial Console.
+
+---
 
 ## 📍 Table of Contents
 
-* **[🌐 Networking](./networking/):** Essential Linux network commands and troubleshooting.
-* **[📜 Scripts](./scripts/):** Automation, health checks, and maintenance shell scripts.
 * **[📦 Containers](./containers/):** Management and orchestration with Docker, Kubernetes, and OpenShift.
 * **[📊 Monitoring](./monitoring/):** Proactive observability with **Prometheus**, **Grafana**, and **Uptime Kuma**.
-* **[🤖 AI Infrastructure](./ai-infrastructure/):** Local LLM deployment with **Ollama**, interactive interfaces with **Open WebUI**, and high-performance **OCR Services** integrated via **Docker**.
+* **[🤖 AI Infrastructure](./ai-infrastructure/):** Local LLM deployment with **Ollama**, interactive interfaces with **Open WebUI**, and high-performance OCR services.
+* **[🌐 Networking](./networking/):** Essential Linux network commands and troubleshooting.
+* **[📜 Scripts](./scripts/):** Automation, health checks, and maintenance shell scripts.
 
 ---
 
