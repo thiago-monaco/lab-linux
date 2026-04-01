@@ -2,7 +2,7 @@
 
 Este diretório contém a stack completa de observabilidade do laboratório, integrando métricas de infraestruturas híbridas e ambientes conteinerizados.
 
-![Dashboard Preview](./img/dashboard-preview.png)
+![Dashboard Preview](./grafana/screenshots/grafana-print.png)
 
 ## 🎯 Escopo do Monitoramento
 Diferente de um setup básico, este projeto integra dados de três ecossistemas distintos:
