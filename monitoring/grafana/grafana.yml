@@ -1,5 +1,5 @@
-# --- MÓDULO: GRAFANA (DASHBOARDS) ---
-services:
+version: '3.8'
+
   grafana:
     image: grafana/grafana:latest
     container_name: grafana
@@ -10,6 +10,38 @@ services:
       - grafana_data:/var/lib/grafana
     depends_on:
       - prometheus
+
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: node-exporter
+    restart: unless-stopped
+    # No lab, você pode omitir as portas se o Prometheus estiver na mesma rede Docker
+    ports:
+      - "9100:9100"
+    volumes:
+      - /proc:/host/proc:ro
+      - /sys:/host/sys:ro
+      - /:/rootfs:ro
+    command:
+      - '--path.procfs=/host/proc'
+      - '--path.sysfs=/host/sys'
+      - '--collector.filesystem.ignored-mount-points=^/(sys|proc|dev|host|etc)($$|/)'
+
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    restart: unless-stopped
+    privileged: true
+    devices:
+      - /dev/kmsg
+    volumes:
+      - /:/rootfs:ro
+      - /var/run:/var/run:rw
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+    ports:
+      - "8082:8080"
 
 volumes:
   grafana_data:
