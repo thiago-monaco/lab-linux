@@ -1,0 +1,35 @@
+/* 1. Troca o Logo usando a rota do namespace */
+.login-ui .login-dialog .logo {
+    background-image: url("app/ext/n1-branding/n1_ico.png") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 120px !important;
+    display: block !important;
+    margin-bottom: 10px !important;
+}
+
+/* 2. Esconde o "abacate" original */
+.login-ui .login-dialog .logo img {
+    display: none !important;
+}
+
+/* 3. Botão Azul Number One */
+.login-ui .login-dialog .buttons button {
+    background-color: #005bbb !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 4px !important;
+    font-weight: bold !important;
+}
+
+/* 4. Efeito no Botão */
+.login-ui .login-dialog .buttons button:hover {
+    background-color: #004a99 !important;
+}
+
+/* 5. Favicon (Ícone da Aba) */
+/* Nota: Isso funciona em browsers que permitem override de link rel via CSS */
+link[rel*="icon"] {
+    href: url("app/ext/n1-branding/favicon.png") !important;
+}

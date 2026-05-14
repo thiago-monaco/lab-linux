@@ -1,0 +1,9 @@
+{
+    "APP" : {
+        "NAME" : "N1 Service Access"
+    },
+    "LOGIN" : {
+        "NAME" : "N1 Service Access",
+        "DIALOG_TITLE" : "N1 One Service Access"
+    }
+}

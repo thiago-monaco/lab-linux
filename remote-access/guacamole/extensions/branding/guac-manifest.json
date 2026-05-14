@@ -1,0 +1,13 @@
+{
+    "guacamoleVersion": "1.6.0",
+    "name": "N1 Branding",
+    "namespace": "n1-branding",
+    "smallIcon": "favicon.png",
+    "largeIcon": "favicon.png",
+    "css": [ "n1-style.css" ],
+    "translations": [ "translations/en.json" ],
+    "resources": {
+        "n1_ico.png": "image/png",
+        "favicon.png": "image/png"
+    }
+}
