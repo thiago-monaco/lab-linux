@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  nginx-proxy:
+    image: 'jc21/nginx-proxy-manager:latest'
+    container_name: nginx-proxy
+    restart: always
+    ports:
+      # Portas públicas de borda (HTTP e HTTPS)
+      - '80:80'
+      - '8443:443' # Sua porta customizada para o HTTPS externo
+      # Painel Admin amarrado ao localhost por segurança
+      - '127.0.0.1:81:81'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+    environment:
+      # Se usar banco de dados externo/separado, as variáveis entram aqui
+      DISABLE_IPV6: 'true'
