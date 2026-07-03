@@ -33,9 +33,9 @@ Check logs (last 100 lines): docker logs --tail 100 -f <container_name>
 
 ---
 
-## 📄 Stirling-PDF: Alternativa Open-Source ao iLovePDF
+# 📄 Stirling-PDF: Alternativa Open-Source ao iLovePDF
 
-###![Stirling PDF Dashboard](./stirling-pdf/pdf.png)
+![Stirling PDF Dashboard](./stirling-pdf/pdf.png)
 
 Implementação do Stirling-PDF (versão `0.30.0` comunitária) integrada à infraestrutura local com proxy reverso e DNS interno via Active Directory.
 
