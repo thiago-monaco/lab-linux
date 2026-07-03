@@ -1,0 +1,4 @@
+/* Esconde o banner de atualização disponível */
+.alert-info, [class*="update-"], [id*="update-"] {
+    display: none !important;
+}
