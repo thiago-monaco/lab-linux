@@ -5,7 +5,7 @@ Welcome to my personal laboratory. Here I document my journey through Cloud engi
 ---
 
 ## 🏗️ Featured Project: Cloud-Native Journey
-* **[☁️ OCI Kubernetes Lab](./oci-kubernetes-lab/):** Provisionamento de infraestrutura enterprise na **Oracle Cloud**. Implementação de **K3s**, **Rancher** e **Istio Service Mesh**, superando restrições de rede corporativa via Cloud Shell e Serial Console.
+* **[☁️ OCII KKubernetes Lab](./oci-kubernetes-lab/):** Provisionamento de infraestrutura enterprise na **Oracle Cloud**. Implementação de **K3s**, **Rancher** e **Istio Service Mesh**, superando restrições de rede corporativa via Cloud Shell e Serial Console.
 
 ---
 
